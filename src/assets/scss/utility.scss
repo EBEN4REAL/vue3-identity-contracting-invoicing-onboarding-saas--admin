@@ -1,0 +1,30 @@
+.cursor-default {
+  cursor: default;
+}
+
+.no-pointer-events {
+  pointer-events: none;
+}
+
+pre {
+  color: #000;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d0d5dd;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  max-height: 211px;
+  overflow-y: scroll;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.mm-truncate {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

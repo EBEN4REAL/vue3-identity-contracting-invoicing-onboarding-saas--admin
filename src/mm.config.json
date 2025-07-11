@@ -1,0 +1,45 @@
+{
+  "app": {
+    "url": "http://localhost:5173",
+    "name": "Acme Inc."
+  },
+  "scApp": {
+    "url": "http://localhost:5172"
+  },
+  "idp": {
+    "url": "http://localhost",
+    "clientId": "3c17c4a8-6525-4b5d-bffe-48aa7200f550"
+  },
+  "iam": {
+    "url": "http://localhost"
+  },
+  "onboarding": {
+    "url": "http://localhost/onboarding"
+  },
+  "events": {
+    "url": "http://localhost/events"
+  },
+  "policies": {
+    "url": "http://localhost/policies"
+  },
+  "contracting": {
+    "url": "http://localhost/contracting"
+  },
+  "billing_and_invoicing": {
+    "url": "http://localhost/billing_and_invoicing"
+  },
+  "configuration": {
+    "url": "http://localhost/configuration"
+  },
+  "mm": {
+    "name": "Acme Inc."
+  },
+  "unleash": {
+    "url": "http://localhost/unleash/proxy",
+    "stage": "development"
+  },
+  "gtm": {
+    "id": "GTM-55XP36V4"
+  },
+  "componentsLibEnabled": true
+}

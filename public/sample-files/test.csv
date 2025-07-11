@@ -1,0 +1,8 @@
+ORG_NAME,USER_EMAIL,USER_FIRST_NAME,USER_LAST_NAME,ROLE
+"Acme, Inc","user001@example.com","User","001","A"
+"Acme, Inc","user002@example.com","User","002","E"
+"Acme, Inc","user003@example.com","User","003","V"
+"Acme, Inc","user004@example.com","User","004",""
+"Vibes, Inc","user005@example.com","User","005","A"
+"Vibes, Inc","user006@example.com","User","006","E"
+"Vibes 007, Inc","user007@example.com","User","007","E"

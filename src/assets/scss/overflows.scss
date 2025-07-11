@@ -1,0 +1,20 @@
+$overflows: (
+  hidden,
+  visible,
+  scroll,
+  auto
+);
+
+$overflow-directions: (
+  "": "overflow",
+  "x-": "overflow-x",
+  "y-": "overflow-y"
+);
+
+@each $direction-prefix, $direction-property in $overflow-directions {
+  @each $overflow in $overflows {
+    .mm-overflow-#{$direction-prefix}#{$overflow} {
+      #{$direction-property}: $overflow;
+    }
+  }
+}

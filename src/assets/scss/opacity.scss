@@ -1,0 +1,6 @@
+
+@for $i from 1 through 20 {
+  .mm-opacity-#{($i*0.5)*10} {
+    opacity: calc(($i/10)*0.5);
+  }
+}

@@ -1,0 +1,946 @@
+{
+  "getting_started": {
+    "nav_label": "Getting started",
+    "top-banner": "",
+    "top-banner-secondary": "",
+    "title": "Welcome {{userName}}",
+    "subtitle": "Get set up in just a few minutes with the steps below. Mark the items as completed when the step is done. You can always return to previous steps, and change / add any configuration from the Configuration menu item.",
+    "header-banner": "",
+    "footer-banner": ""
+  },
+  "accounts": {
+    "nav_label": "Accounts",
+    "top-banner": "<div style='position: relative; width: 100%; height: 0; padding-top: 25.0000%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;'> <iframe loading='lazy' style='position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;' src='https://www.canva.com/design/DAGkJR_OzYg/KnVZ7Pb80uzZbA2bekpNXQ/view?embed' allowfullscreen='allowfullscreen' allow='fullscreen'> </iframe> </div> <a href='https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGkJR_OzYg&#x2F;KnVZ7Pb80uzZbA2bekpNXQ&#x2F;view?utm_content=DAGkJR_OzYg&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link' target='_blank' rel='noopener'>",
+    "top-banner-secondary": "",
+    "title": "Accounts",
+    "subtitle": "Manage the organizations that access and subscribe to your applications.\nEach user belongs to an account, and access can be granted at the account level, user level, or both. <a href='https://docs.myveriam.com/for-providers/customer-accounts' rel='noreferer,noopener' target='_blank' class='mm-link font-weight-500'>Learn more</a>",
+    "create_account": {
+      "label": "Create account",
+      "type": "small",
+      "variant": "elevated",
+      "prependIcon": "plus-white",
+      "appendIcon": ""
+    },
+    "import_accounts": {
+      "label": "Import accounts",
+      "type": "small",
+      "variant": "outlined",
+      "prependIcon": "cloud-arrow-down",
+      "appendIcon": ""
+    },
+    "header-banner": "",
+    "footer-banner": ""
+  },
+  "account_details": {
+    "title": "{{accountName}}",
+    "subtitle": ""
+  },
+  "users": {
+    "nav_label": "Users",
+    "top-banner": "",
+    "top-banner-secondary": "",
+    "title": "Users",
+    "subtitle": "All users across accounts that have been invited, logged in, or tried to login to your applications.\n In the <a href='https://customer.myveriam.com/sc/users' rel='noreferer,noopener' target='_blank' class='mm-link font-weight-500'>Veriam Customer Portal</a> you can manage users from your own organization. \n<a href='https://docs.myveriam.com/for-providers/customer-users.' rel='noreferer,noopener' target='_blank' class='mm-link font-weight-500'>Learn more</a>",
+    "add_users": {
+      "label": "Add users",
+      "type": "small",
+      "variant": "elevated",
+      "prependIcon": "plus-white",
+      "appendIcon": ""
+    },
+    "header-banner": "",
+    "footer-banner": ""
+  },
+  "user_details": {
+    "title": "{{userFullName}}",
+    "subtitle": "{{userEmail}}"
+  },
+  "applications": {
+    "nav_label": "Applications",
+    "title": "Applications",
+    "subtitle": "<p class='mm-mb-3'>Setup and configure applications that need access management. Veriam uses OpenID Connect (OIDC) protocol for authentication and authorization requests.</p><p>\nAccess rules can be applied directly on the application, or through application-specific policies. <a href='https://docs.myveriam.com/for-providers/ciam/connect-your-application' rel='noreferer,noopener' target='_blank' class='mm-link font-weight-500'>Learn more</a></p>",
+    "top-banner": "",
+    "top-banner-secondary": "",
+    "add_button": {
+      "label": "Add application",
+      "type": "small",
+      "variant": "elevated",
+      "prependIcon": "plus-white",
+      "appendIcon": "",
+      "dropdown_items": {
+        "new_application_with_roles": {
+          "label": "New application with roles"
+        },
+        "new_advanced_application": {
+          "label": "New advanced application"
+        }
+      }
+    },
+    "header-banner": "",
+    "footer-banner": ""
+  },
+  "access_control": {
+    "nav_label": "Access control",
+    "role_based": {
+      "top-banner": "",
+      "top-banner-secondary": "",
+      "nav_label": "Roles",
+      "title": "Role based access control",
+      "subtitle": "<p class='mm-mb-3'>Roles help manage what users and customer accounts can access in your applications. Assign roles directly or through licenses, with filters and permissions if needed. <a href='https://docs.myveriam.com/for-providers/ciam/role-based-access' rel='noreferer,noopener' target='_blank' class='mm-link font-weight-500'>Learn more</a></p>",
+      "header-banner": "",
+      "footer-banner": ""
+    },
+    "policy_based": {
+      "top-banner": "",
+      "top-banner-secondary": "",
+      "nav_label": "Policies",
+      "title": "Policy based access control",
+      "subtitle": "<p class='mm-mb-3'>Policies offer a flexible way to manage access, using rules and filters to decide who can do what.\nThey can be assigned directly to users or customer accounts, or be made available through access licenses or subscriptions. <a href='https://docs.myveriam.com/for-providers/ciam/policy-based-access' rel='noreferer, noopener' target='_blank' class='mm-link font-weight-500'>Learn more</a></p>",
+      "header-banner": "",
+      "footer-banner": ""
+    },
+    "access_licenses": {
+      "top-banner": "",
+      "top-banner-secondary": "",
+      "nav_label": "Access license",
+      "title": "Access licenses",
+      "subtitle": "<p class='mm-mb-3'>Manage the access licenses that contain the conditions for customers to get access to your application(s), as well as the access they get. They contain policies (to determine the access) and potential legal document requirements.</p><p>After an access license is provided to a customer organization, an administrator of the customer can distribute it to their users.</p>",
+      "header-banner": "",
+      "footer-banner": ""
+    }
+  },
+  "subscriptions": {
+    "nav_label": "Subscriptions",
+    "subscriptions": {
+      "nav_label": "Subscriptions",
+      "top-banner": "",
+      "top-banner-secondary": "",
+      "title": "Subscriptions",
+      "subtitle": "View, update or assign subscription plans to customer accounts. <a href='https://docs.myveriam.com/for-providers/subscription-management/managing-subscriptions/create-subscriptions' rel='noreferer, noopener' target='_blank' class='mm-link font-weight-500'>Learn more</a>",
+      "new_subscription": {
+        "label": "New subscription",
+        "type": "small",
+        "variant": "elevated",
+        "prependIcon": "plus-white",
+        "appendIcon": ""
+      },
+      "actions_button": {
+        "label": "",
+        "type": "small",
+        "variant": "outlined",
+        "prependIcon": "dots-vertical",
+        "appendIcon": "",
+        "dropdown_items": {
+          "create_new_plan": {
+            "label": "Create new plan"
+          }
+        }
+      },
+      "header-banner": "",
+      "footer-banner": ""
+    },
+    "subscription_details": {
+      "title": "{{agreementName}} for {{serviceConsumerName}}",
+      "subtitle": ""
+    },
+    "invoices": {
+      "nav_label": "Invoices",
+      "top-banner": "",
+      "top-banner-secondary": "",
+      "title": "Invoices",
+      "subtitle": "All subscription invoices issued to your customer accounts. <a href='https://docs.myveriam.com/for-providers/subscription-management/managing-subscriptions/view-payments-and-invoices' rel='noreferer, noopener' target='_blank' class='mm-link font-weight-500'>Learn more</a>",
+      "header-banner": "",
+      "footer-banner": ""
+    },
+    "payments": {
+      "nav_label": "Payments",
+      "top-banner": "",
+      "top-banner-secondary": "",
+      "title": "Payments",
+      "subtitle": "All payments collected from your customer accounts for their active subscriptions. <a href='https://docs.myveriam.com/for-providers/subscription-management/managing-subscriptions/view-payments-and-invoices' rel='noreferer, noopener' target='_blank' class='mm-link font-weight-500'>Learn more</a>",
+      "header-banner": "",
+      "footer-banner": ""
+    },
+    "plans": {
+      "nav_label": "Plans",
+      "top-banner": "",
+      "top-banner-secondary": "",
+      "title": "Plans",
+      "subtitle": "<p class='mm-mb-3'>Create and manage subscription plans that define what customers get access to—and under what terms.\nEach plan has subscription based access control <a href='https://docs.myveriam.com/for-providers/subscription-management/setup-access-rules-for-subscriptions' rel='noreferer, noopener' target='_blank' class='mm-link font-weight-500'>(SBAC)</a>, policies that control access to features and applications. <a href='https://docs.myveriam.com/for-providers/subscription-management/configure-your-plans' rel='noreferer, ,noopener' target='_blank' class='mm-link font-weight-500'>Learn more</a></p>",
+      "create_plan": {
+        "label": "Create plan",
+        "type": "small",
+        "variant": "elevated",
+        "prependIcon": "plus-white",
+        "appendIcon": ""
+      },
+      "header-banner": "",
+      "footer-banner": ""
+    }
+  },
+  "license_details": {
+    "title": "{{licenseName}}",
+    "subtitle": "{{licenseDescription}}"
+  },
+  "contracting": {
+    "nav_label": "Contracting",
+    "top-banner": "",
+    "top-banner-secondary": "",
+    "title": "Templates",
+    "subtitle": "Upload legal documents—like T&Cs, privacy policies, or NDAs—that customers need to agree to before accessing your services.\nTemplates can be added to subscription plans. <a href='https://docs.myveriam.com/contracting' rel='noreferer, noopener' target='_blank' class='mm-link font-weight-500'>Learn more</a>",
+    "create_template": {
+      "label": "Create template",
+      "type": "small",
+      "variant": "elevated",
+      "prependIcon": "plus-white",
+      "appendIcon": ""
+    },
+    "header-banner": "",
+    "footer-banner": ""
+  },
+  "logs": {
+    "nav_label": "Logs",
+    "top-banner": "",
+    "top-banner-secondary": "",
+    "title": "Logs",
+    "subtitle": "You can find the different logs of the Veriam platform here.",
+    "header-banner": "",
+    "footer-banner": ""
+  },
+  "configuration": {
+    "nav_label": "Configuration",
+    "applications": {
+      "nav_label": "Applications",
+      "overview": {
+        "title": "Applications",
+        "subtitle": "Here you can configure your applications that require access management. Veriam uses the OpenID Connect (OIDC) protocol for authentication and authorization requests. You will be provided with the Client ID and Client Secret after configuring your application.</p><p>After configuring your application, you can set access rules (policies) directly on the application, or use the application name in filters that can be added to policies.</p>",
+        "add_button": {
+          "label": "Add application",
+          "type": "small",
+          "variant": "elevated",
+          "prependIcon": "plus-white",
+          "appendIcon": "",
+          "dropdown_items": {
+            "new_application_with_roles": {
+              "label": "New application with roles"
+            },
+            "new_advanced_application": {
+              "label": "New advanced application"
+            }
+          }
+        },
+        "top-banner": "",
+        "top-banner-secondary": "",
+        "header-banner": "",
+        "footer-banner": "",
+        "table_headers": {
+          "name": "Application name",
+          "description": "Description",
+          "url": "URL",
+          "type": "Type",
+          "created_date": "Created date"
+        }
+      },
+      "application_details": {
+        "title": "{{appName}}",
+        "subtitle": "{{appDescription}}",
+        "edit_button": "Edit",
+        "save_button": "Save",
+        "actions": {
+          "delete": "Delete",
+          "discard": "Discard"
+        },
+        "top-banner": "",
+        "top-banner-secondary": "",
+        "header-banner": "",
+        "footer-banner": "",
+        "tab_settings": {
+          "title": "Settings",
+          "subtitle": "",
+          "sections": {
+            "basic_info": {
+              "title": "Basic information",
+              "subtitle": "",
+              "fields": {
+                "app_name": {
+                  "label": "Application name",
+                  "label_tooltip": "",
+                  "placeholder": "Application name",
+                  "info_text": "This is only visible internally on Veriam Admin to identify your application.",
+                  "learn_more_url": ""
+                },
+                "description": {
+                  "label": "Description",
+                  "label_tooltip": "",
+                  "placeholder": "Add a description",
+                  "info_text": "This is only visible internally on Veriam admin",
+                  "learn_more_url": ""
+                },
+                "url": {
+                  "label": "URL",
+                  "label_tooltip": "",
+                  "placeholder": "https://",
+                  "info_text": "The URL where your application is hosted. This is only for use on Veriam Admin.",
+                  "learn_more_url": ""
+                },
+                "type": {
+                  "label": "Type of application",
+                  "label_tooltip": "",
+                  "info_text": "Select the type of application you are configuring.",
+                  "learn_more_url": "",
+                  "option_website": "Website",
+                  "option_api": "API"
+                },
+                "required_mfa": {
+                  "label": "Require MFA on all logins",
+                  "label_tooltip": "",
+                  "info_text": "Enabling this will force all users to use MFA when logging in to this application.",
+                  "learn_more_url": ""
+                }
+              }
+            },
+            "connection_config": {
+              "title": "Connection configuration",
+              "subtitle": "",
+              "fields": {
+                "client_id": {
+                  "label": "Client ID",
+                  "label_tooltip": "",
+                  "info_text": "",
+                  "learn_more_url": ""
+                },
+                "config_url": {
+                  "label": "Veriam Open ID URL",
+                  "label_tooltip": "",
+                  "info_text": "The Open ID Connect discovery URL of Veriam. You will need this in your application to setup the connection.",
+                  "learn_more_url": ""
+                },
+                "redirect_url": {
+                  "label": "Redirect URLs",
+                  "label_tooltip": "",
+                  "placeholder": "https://",
+                  "info_text": "The URL where the user can get redirected to after authentication. Note that, especially if you provide multiple Redirect URLs, it is good practice to send a redirect URL in the authentication request.",
+                  "learn_more_url": "",
+                  "add_button": "Add another"
+                },
+                "client_secret": {
+                  "label": "Client secret",
+                  "generate_button": "Generate new client secret"
+                }
+              }
+            },
+            "attr_sets": {
+              "title": "Attribute sets",
+              "subtitle": "Define which user or customer account details to request for your application signup process. You can create and manage attribute sets separately for users and customer accounts, then assign them to any application that needs them.",
+              "assign_org_button": "Assign organization attribute set",
+              "assign_user_button": "Assign user attribute set",
+              "table_headers": {
+                "name": "Application name",
+                "description": "Description",
+                "type": "Type",
+                "required_attribute_types": "Required attributes",
+                "optional_attribute_types": "Optional attributes"
+              }
+            }
+          }
+        },
+        "tab_policies": {
+          "title": "Policies",
+          "subtitle": "",
+          "assign_button": "Assign policy",
+          "table_headers": {
+            "name": "Policy name",
+            "description": "Description"
+          }
+        }
+      },
+      "application_new": {
+        "new_application": {
+          "title": "{{title}}",
+          "subtitle": "",
+          "top-banner": "",
+          "top-banner-secondary": "",
+          "header-banner": "",
+          "footer-banner": ""
+        },
+        "new_application_with_roles": {
+          "title": "Application wizard",
+          "subtitle": "<p class='mm-mb-3'>This wizard will help you setup your application with corresponding access requirements quickly and easily.</p><p>Simply follow the wizard below to get setup in minutes.</p>"
+        }
+      }
+    },
+    "filters": {
+      "nav_label": "Filters",
+      "overview": {
+        "top-banner": "",
+        "top-banner-secondary": "",
+        "title": "Filters",
+        "subtitle": "Create and manage filters used to control when a policy should apply.\nEach filter can include one or more conditions. Can be nested for more advanced logic. <a href='https://docs.myveriam.com/for-providers/ciam/filters' target='_blank' class='mm-link font-weight-500'>Learn more</a>",
+        "create_filter": {
+          "label": "Create filter",
+          "type": "small",
+          "variant": "elevated",
+          "prependIcon": "plus-white",
+          "appendIcon": ""
+        },
+        "header-banner": "",
+        "footer-banner": ""
+      },
+      "filter_details": {
+        "title": "{{filterName}}",
+        "subtitle": "{{filterDescription}}"
+      },
+      "filter_new": {
+        "title": "{{filterName}}",
+        "subtitle": "{{filterDescription}}"
+      }
+    },
+    "policies": {
+      "nav_label": "Policies",
+      "overview": {
+        "top-banner": "",
+        "top-banner-secondary": "",
+        "title": "Policies",
+        "subtitle": "<p class='mm-mb-3'>Manage user access by setting up and assigning policies with access. You can set up filters to determine the access rules as part of a policy.</p><p>Policies can be assigned directly to a customer organization or user, or made available via a Access License or Subscription (coming soon).</p>",
+        "create_policy": {
+          "label": "Create policy",
+          "type": "small",
+          "variant": "elevated",
+          "prependIcon": "plus-white",
+          "appendIcon": ""
+        },
+        "actions_button": {
+          "label": "",
+          "type": "small",
+          "variant": "outlined",
+          "prependIcon": "dots-vertical",
+          "appendIcon": "",
+          "dropdown_items": {
+            "manage_roles": {
+              "label": "Manage roles"
+            },
+            "manage_permissions": {
+              "label": "Manage permissions"
+            }
+          }
+        },
+        "header-banner": "",
+        "footer-banner": ""
+      },
+      "policy_details": {
+        "title": "{{policyName}}",
+        "subtitle": "{{policyDescription}}"
+      }
+    },
+    "roles": {
+      "nav_label": "Roles",
+      "overview": {
+        "top-banner": "",
+        "top-banner-secondary": "",
+        "title": "Roles",
+        "subtitle": "<p class='mm-mb-3'>Manage user access by setting up and assigning role based policies. You can create 'Roles' (role names to return as part of the user information) and 'Permissions' (also returned as part of the user information) from the 'Manage Roles' and 'Manage Permissions' options.</p><p>Roles can be assigned directly to a customer organization or user, or made available via a Subscription.</p>",
+        "create_role": {
+          "label": "Create role",
+          "type": "small",
+          "variant": "elevated",
+          "prependIcon": "plus-white",
+          "appendIcon": ""
+        },
+        "actions_button": {
+          "label": "",
+          "type": "small",
+          "variant": "outlined",
+          "prependIcon": "dots-vertical",
+          "appendIcon": "",
+          "dropdown_items": {
+            "manage_roles": {
+              "label": "Manage roles"
+            },
+            "manage_permissions": {
+              "label": "Manage permissions"
+            }
+          }
+        },
+        "header-banner": "",
+        "footer-banner": ""
+      }
+    },
+    "resources": {
+      "nav_label": "Resources",
+      "overview": {
+        "top-banner": "",
+        "top-banner-secondary": "",
+        "title": "Resources",
+        "subtitle": "<p class='mm-mb-3'>Resources are any objects in your application that need additional authorization.\nYou can define resource attributes to describe them more specifically, and use both resources and <a href='https://admin.myveriam.com/sp/config/attributes' target='_blank' class='mm-link font-weight-500'>resource attributes</a> to control who gets access and when. <a href='https://docs.myveriam.com/for-providers/ciam/resource-based-access' rel='noreferer, ,noopener' target='_blank' class='mm-link font-weight-500'>Learn more</a></p>",
+        "create_resource": {
+          "label": "Create resource",
+          "type": "small",
+          "variant": "elevated",
+          "prependIcon": "plus-white",
+          "appendIcon": ""
+        },
+        "header-banner": "",
+        "footer-banner": ""
+      },
+      "resource_details": {
+        "title": "{{resourceName}}",
+        "subtitle": "{{resourceDescription}}"
+      },
+      "resource_new": {
+        "title": "{{title}}",
+        "subtitle": "{{subtitle}}"
+      }
+    },
+    "resource_attributes": {
+      "nav_label": "Resource attributes",
+      "overview": {
+        "top-banner": "",
+        "top-banner-secondary": "",
+        "title": "Resource attributes",
+        "subtitle": "Resource attributes are specific attributes of your resources that you might want to use to determine if users should get access to the requested resource. Resource attributes can be used across different resources.",
+        "create_resource_attribute": {
+          "label": "Create resource attribute",
+          "type": "small",
+          "variant": "elevated",
+          "prependIcon": "plus-white",
+          "appendIcon": ""
+        },
+        "header-banner": "",
+        "footer-banner": ""
+      }
+    },
+    "access_licenses": {
+      "nav_label": "Access licenses",
+      "overview": {
+        "top-banner": "",
+        "top-banner-secondary": "",
+        "title": "Access licenses",
+        "subtitle": "<p class='mm-mb-3'>Manage the access licenses that contain the conditions for customers to get access to your application(s), as well as the access they get. They contain policies (to determine the access) and potential legal document requirements.</p><p>After an access license is provided to a customer organization, an administrator of the customer can distribute it to their users.</p>",
+        "create_access_license": {
+          "label": "Create license",
+          "type": "small",
+          "variant": "elevated",
+          "prependIcon": "plus-white",
+          "appendIcon": ""
+        },
+        "header-banner": "",
+        "footer-banner": ""
+      },
+      "access_license_new": {
+        "title": "{{title}}",
+        "subtitle": "{{subtitle}}"
+      }
+    },
+    "legal_documents": {
+      "nav_label": "Legal documents",
+      "overview": {
+        "top-banner": "",
+        "top-banner-secondary": "",
+        "title": "Legal documents",
+        "subtitle": "Legal documents to be signed by customers to access your services. These could be T&Cs, Privacy Policy, NDA etc. that can be added to access licenses or plans to ensure the organization agrees to the terms before being able to use the license or subscription.",
+        "create_legal_document": {
+          "label": "Create legal document",
+          "type": "small",
+          "variant": "elevated",
+          "prependIcon": "plus-white",
+          "appendIcon": ""
+        },
+        "header-banner": "",
+        "footer-banner": ""
+      },
+      "legal_document_details": {
+        "title": "{{docName}}",
+        "subtitle": "{{docDescription}}"
+      },
+      "legal_document_new": {
+        "title": "{{title}}",
+        "subtitle": "{{subtitle}}"
+      }
+    },
+    "attribute_sets": {
+      "nav_label": "Attribute sets",
+      "overview": {
+        "top-banner": "",
+        "top-banner-secondary": "",
+        "title": "Attribute sets",
+        "subtitle": "<p class='mm-mb-3'>Define which user or customer account details to request for your application signup process.</p><p>You can create and manage attribute sets separately for users and customer accounts, then assign them to any application that needs them. <a href='https://docs.myveriam.com/for-providers/ciam/attribute-based-access' rel='noreferer,noopener' target='_blank' class='mm-link font-weight-500'>Learn more</a></p>",
+        "create_attribute_set": {
+          "label": "Create attribute set",
+          "type": "small",
+          "variant": "elevated",
+          "prependIcon": "plus-white",
+          "appendIcon": "",
+          "dropdown_items": {
+            "organization": {
+              "label": "Organization"
+            },
+            "user": {
+              "label": "User"
+            }
+          }
+        },
+        "header-banner": "",
+        "footer-banner": ""
+      },
+      "attribute_set_details": {
+        "title": "{{title}}",
+        "subtitle": "{{subtitle}}"
+      },
+      "attribute_set_new": {
+        "title": "{{title}}",
+        "subtitle": "{{subtitle}}"
+      }
+    },
+    "plans": {
+      "nav_label": "Plans",
+      "overview": {
+        "top-banner": "",
+        "top-banner-secondary": "",
+        "title": "Plans",
+        "subtitle": "Subscription plans are structured offerings that define the features, pricing, and terms for your services. The policies in the plan determine access to applications or features.",
+        "create_plan": {
+          "label": "Create plan",
+          "type": "small",
+          "variant": "elevated",
+          "prependIcon": "plus-white",
+          "appendIcon": ""
+        },
+        "header-banner": "",
+        "footer-banner": ""
+      }
+    },
+    "pricing_page": {
+      "nav_label": "Pricing page",
+      "top-banner": "",
+      "top-banner-secondary": "",
+      "title": "Pricing page",
+      "subtitle": "Create a pricing page that lets customers choose and subscribe to one of your available plans. <a href='https://docs.myveriam.com/for-providers/subscription-management/set-up-your-pricing-page' class='mm-link font-weight-500'>Learn more</a>",
+      "edit_button": {
+        "label": "Edit",
+        "type": "medium",
+        "variant": "outlined",
+        "prependIcon": "pen",
+        "appendIcon": ""
+      },
+      "preview_button": {
+        "label": "Preview",
+        "type": "medium",
+        "variant": "outlined",
+        "prependIcon": "",
+        "appendIcon": ""
+      },
+      "save_button": {
+        "label": "Save",
+        "type": "medium",
+        "variant": "elevated",
+        "prependIcon": "",
+        "appendIcon": "",
+        "minWidth": "80px"
+      },
+      "discard_button": {
+        "label": "Discard",
+        "type": "medium",
+        "variant": "outlined",
+        "prependIcon": "",
+        "appendIcon": ""
+      },
+      "header-banner": "",
+      "footer-banner": ""
+    },
+    "toast_messages": {
+      "subitem_successfully_created": "Item created. Don't forget to finish the configuration of this item later."
+    }
+  },
+  "review_and_publish_banner": {
+    "text": {
+      "draft": "You have unpublished changes. Review and publish to make configuration available to your users.",
+      "publishing": "Publication in progress. Track the publish status of your config.",
+      "failed": "Publication failed. Please review your changes and try again."
+    },
+    "button": {
+      "review_publish": "Review & publish",
+      "overview": "Config overview"
+    },
+    "review_and_publish_banner": {
+      "text": {
+        "draft": "You have unpublished changes. Review and publish to make configuration available to your users.",
+        "publishing": "Publication in progress. Track the publish status of your config.",
+        "failed": "Publication failed. Please review your changes and try again."
+      },
+      "button": {
+        "review_publish": "Review & publish",
+        "overview": "Config overview"
+      }
+    }
+  },
+  "review_and_publish_overview": {
+    "title": "Review & publish",
+    "subtitle": {
+      "publishing_one": "Publishing {{count}} item",
+      "publishing_other": "Publishing {{count}} items",
+      "published_one": "Published {{count}} item",
+      "published_other": "Published {{count}} items",
+      "failed_one": "Failed to Publish {{count}} item",
+      "failed_other": "Failed to Publish {{count}} items",
+      "ready_one": "You have {{count}} item ready to be published",
+      "ready_other": "You have {{count}} items ready to be published"
+    }
+  },
+  "oidc_claims": {
+    "nav_label": "OIDC Claims",
+    "roles": {
+      "nav_label": "Roles",
+      "title": "Roles",
+      "subtitle": "All the roles that are available to be used in policies.",
+      "add_role": {
+        "label": "Add role",
+        "type": "small",
+        "variant": "elevated",
+        "prependIcon": "plus-white",
+        "appendIcon": ""
+      }
+    },
+    "permissions": {
+      "nav_label": "Permissions",
+      "title": "Permissions",
+      "subtitle": "All the permissions that are available to be used in policies.",
+      "add_permission": {
+        "label": "Add permission",
+        "type": "small",
+        "variant": "elevated",
+        "prependIcon": "plus-white",
+        "appendIcon": ""
+      }
+    }
+  },
+  "provide_support": {
+    "nav_label": "Provide support",
+    "top-banner": "",
+    "top-banner-secondary": "",
+    "title": "Log in as a support partner",
+    "subtitle": "Please select the organization and <br />continue logging in",
+    "header-banner": "",
+    "footer-banner": ""
+  },
+  "permissions": {
+    "nav_label": "Permissions",
+    "title": "Permissions",
+    "subtitle": "All the permissions that are available to be used in policies.",
+    "add_permission": {
+      "label": "Add permission",
+      "type": "small",
+      "variant": "elevated",
+      "prependIcon": "plus-white",
+      "appendIcon": ""
+    }
+  },
+  "settings": {
+    "nav_label": "Branding settings",
+    "top-banner": "",
+    "top-banner-secondary": "",
+    "title": "Settings",
+    "subtitle": "",
+    "header-banner": "",
+    "footer-banner": ""
+  },
+  "nav_menu": {
+    "advanced": "Advanced",
+    "back": "Back"
+  },
+  "multiselect": {
+    "already_added": "Already added",
+    "part_of": "Part of"
+  },
+  "identity": {
+    "nav_label": "Identity"
+  },
+  "other": {
+    "nav_label": "Other"
+  },
+  "poc": {
+    "demopage": {
+      "pocOptionsFormModel": {
+        "show_simple_group_with_default_layout": {
+          "label": "Simple group with default layout"
+        },
+        "show_simple_group_with_horizontal_layout": {
+          "label": "Simple group with horizontal layout"
+        },
+        "show_composite_group_of_groups_stacked_horizontally": {
+          "label": "Composite group of vertical groups stacked horizontally"
+        },
+        "show_composite_group_of_groups_stacked_vertically": {
+          "label": "Composite group of horizontal groups stacked vertically"
+        },
+        "show_composite_group_of_groups_stacked_horizontally_with_actions": {
+          "label": "Composite group of vertical groups stacked horizontally with actions"
+        },
+        "show_composite_group_of_groups_stacked_vertically_with_actions": {
+          "label": "Composite group of horizontal groups stacked vertically with actions"
+        },
+        "show_composite_group_of_groups_stacked_vertically_with_array_values": {
+          "label": "Composite group of horizontal groups stacked vertically with array values"
+        },
+        "show_composite_group_of_groups_stacked_vertically_with_array_values_and_actions": {
+          "label": "Composite group of horizontal groups stacked vertically with array values and actions"
+        },
+        "show_data_view_property": {
+          "label": "Data View Property to View and Edit Array Data"
+        },
+        "show_input_properties_with_default_values": {
+          "label": "Input Properties That are Unspecified Retrieve Default Values"
+        },
+        "show_section_poc": {
+          "label": "show_section_poc"
+        }
+      },
+      "simple_group_with_horizontal_layout": {
+        "poc_textproperty": {
+          "label": "POC Text Property",
+          "label_tooltip": "This is a text property for proof of concept.",
+          "placeholder": "Enter text here...",
+          "info_text": "Provide the necessary text input.",
+          "learn_more_url": "https://example.com/poc_textproperty"
+        },
+        "poc_textproperty_required": {
+          "label": "POC Required Text Property",
+          "label_tooltip": "This text property is required.",
+          "placeholder": "Enter required text...",
+          "info_text": "You must fill out this field.",
+          "learn_more_url": "https://example.com/poc_textproperty_required",
+          "validations": {
+            "required": "This field is required."
+          }
+        },
+        "poc_textproperty_maxlength_16": {
+          "label": "POC Text Property (Max 16)",
+          "label_tooltip": "Maximum length is 16 characters.",
+          "placeholder": "Max 16 chars...",
+          "info_text": "Ensure your input is within the character limit.",
+          "learn_more_url": "https://example.com/poc_textproperty_maxlength_16",
+          "validations": {
+            "required": "This field is required.",
+            "maxlength": "This field cannot exceed 16 characters."
+          }
+        }
+      },
+      "simple_group_with_default_layout": {
+        "poc_textproperty": {
+          "label": "POC Text Property",
+          "label_tooltip": "This is a text property for proof of concept.",
+          "placeholder": "Enter text here...",
+          "info_text": "Provide the necessary text input.",
+          "learn_more_url": "https://example.com/poc_textproperty"
+        },
+        "poc_textproperty_required": {
+          "label": "POC Required Text Property",
+          "label_tooltip": "This text property is required.",
+          "placeholder": "Enter required text...",
+          "info_text": "You must fill out this field.",
+          "learn_more_url": "https://example.com/poc_textproperty_required",
+          "validations": {
+            "required": "This field is required."
+          }
+        },
+        "poc_textproperty_maxlength_16": {
+          "label": "POC Text Property (Max 16)",
+          "default": "Default value from i18n",
+          "label_tooltip": "Maximum length is 16 characters.",
+          "placeholder": "Max 16 chars...",
+          "info_text": "Ensure your input is within the character limit.",
+          "learn_more_url": "https://example.com/poc_textproperty_maxlength_16",
+          "validations": {
+            "required": "This field is required.",
+            "maxlength": "This field cannot exceed 16 characters."
+          }
+        },
+        "poc_textarea": {
+          "label": "POC Textarea",
+          "label_tooltip": "This is a textarea property for proof of concept.",
+          "placeholder": "Enter big text here...",
+          "info_text": "Provide the necessary big text input.",
+          "learn_more_url": "https://example.com/poc_textareaproperty"
+        },
+        "poc_textarea_rows_12": {
+          "label": "POC Textarea 12 rows",
+          "label_tooltip": "This is a textarea 12 rows property for proof of concept.",
+          "placeholder": "Enter big 12 rows text here...",
+          "info_text": "Provide the necessary big 12 rows text input.",
+          "learn_more_url": "https://example.com/poc_textarea12rowsproperty"
+        },
+        "poc_textarea_required": {
+          "label": "POC Required Textarea",
+          "label_tooltip": "This is a required textarea property for proof of concept.",
+          "placeholder": "Enter required text here...",
+          "info_text": "Provide the necessary required text input.",
+          "learn_more_url": "https://example.com/poc_textareapropertyrequired",
+          "validations": {
+            "required": "This textarea is required"
+          }
+        },
+        "name": {
+          "label": "Name",
+          "label_tooltip": "This is a name property for proof of concept.",
+          "placeholder": "Enter app name...",
+          "info_text": "Provide app name.",
+          "learn_more_url": "https://example.com/name"
+        },
+        "type": {
+          "label": "Type",
+          "label_tooltip": "This is a type property for proof of concept.",
+          "placeholder": "Enter app type...",
+          "info_text": "Provide app type.",
+          "learn_more_url": "https://example.com/type"
+        },
+        "poc_checkbox": {
+          "label": "POC Textarea",
+          "label_tooltip": "This is textarea property for proof of concept.",
+          "info_text": "Agree to continue.",
+          "learn_more_url": "https://example.com/poc_checkbox",
+          "validations": {}
+        },
+        "poc_checkbox_required": {
+          "label": "POC Required Checkbox",
+          "label_tooltip": "This is a required checkbox property for proof of concept.",
+          "info_text": "Agree is required to continue.",
+          "learn_more_url": "https://example.com/poc_checkbox_required",
+          "validations": {
+            "required": "This checkbox is required"
+          }
+        }
+      },
+      "composite_group_of_groups_stacked_horizontally": {
+        "poc_component_group_1": {
+          "poc_textproperty_1_1": {
+            "label": "Group 1 Property A"
+          },
+          "poc_textproperty_1_2": {
+            "label": "Group 1 Property B"
+          },
+          "poc_textproperty_1_3": {
+            "label": "Group 1 Property C"
+          }
+        },
+        "poc_component_group_2": {
+          "poc_textproperty_2_1": {
+            "label": "Group 2 Property A"
+          },
+          "poc_textproperty_2_2": {
+            "label": "Group 2 Property B",
+            "label_tooltip": "This is a text property 2 2 for proof of concept.",
+            "placeholder": "Enter 2 2 text here...",
+            "info_text": "Provide the necessary 2 2 text input.",
+            "learn_more_url": "https://example.com/poc_textproperty_2_2"
+          },
+          "poc_textproperty_2_3": {
+            "label": "Group 2 Property C",
+            "label_tooltip": "This is a text property 2 3 for proof of concept.",
+            "placeholder": "Enter 2 3 text here...",
+            "info_text": "Provide the necessary 2 3 text input.",
+            "learn_more_url": "https://example.com/poc_textproperty_2_3"
+          }
+        }
+      }
+    }
+  }
+}

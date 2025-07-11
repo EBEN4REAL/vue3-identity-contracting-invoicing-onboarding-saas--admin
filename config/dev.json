@@ -1,0 +1,42 @@
+{
+  "app": {
+    "url": "https://app.acmeinc.dev",
+    "name": "Acme Inc."
+  },
+  "scApp": {
+    "url": "https://app.acmeinc.id"
+  },
+  "idp": {
+    "url": "https://idp.acmeinc.id",
+    "clientId": "3c17c4a8-6525-4b5d-bffe-48aa7200f550"
+  },
+  "iam": {
+    "url": "https://api.acmeinc.dev"
+  },
+  "onboarding": {
+    "url": "https://api.acmeinc.dev/onboarding"
+  },
+  "events": {
+    "url": "https://api.acmeinc.dev/events"
+  },
+  "policies": {
+    "url": "https://api.acmeinc.dev/policies"
+  },
+  "contracting": {
+    "url": "https://api.acmeinc.dev/contracting"
+  },
+  "billing_and_invoicing": {
+    "url": "https://api.acmeinc.dev/billing_and_invoicing"
+  },
+  "configuration": {
+    "url": "https://api.acmeinc.dev/configuration"
+  },
+  "mm": {
+    "name": "Acme Inc."
+  },
+  "componentsLibEnabled": true,
+  "unleash": {
+    "url": "https://api.acmeinc.dev/unleash/proxy",
+    "stage": "dev"
+  }
+}

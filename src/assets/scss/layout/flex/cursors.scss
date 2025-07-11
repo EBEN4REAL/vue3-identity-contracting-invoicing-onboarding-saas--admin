@@ -1,0 +1,9 @@
+$cursor-types: (
+  auto, default, pointer, wait, text, move, not-allowed, crosshair, help, progress, cell, context-menu, alias, copy, grab, grabbing, no-drop, all-scroll, col-resize, row-resize, n-resize, e-resize, s-resize, w-resize, ne-resize, nw-resize, se-resize, sw-resize, ew-resize, ns-resize, nesw-resize, nwse-resize, zoom-in, zoom-out
+);
+
+@each $cursor in $cursor-types {
+  .mm-cursor-#{$cursor} {
+    cursor: $cursor;
+  }
+}
